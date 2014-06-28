@@ -6,7 +6,7 @@ A Basic webRTC video call system
 INstructions :
 1) Start apache / any other server of your choice.
 
-2)Place the extracted folder i.e. Webrtc inside its htdocs or www(in case of wamp).
+2)Place the extracted  files to a folder named webrtc (for convenience) inside its htdocs or www(in case of wamp).
 
 
 2) Fire up the terminal and do a change directory i.e. cd to the extracted folder (webrtc) inside htdocs.
