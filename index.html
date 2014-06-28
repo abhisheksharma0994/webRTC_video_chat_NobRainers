@@ -5,12 +5,14 @@
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
   <script type="text/javascript" src="peer.js"></script>
   <script>
+  // getting username 
+  var myname = prompt("Please enter your name");
 
     // Compatibility shim
     navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia;
 	 // PeerJS object
     // No API key required when not using cloud server
-    var peer = new Peer('', {host: '/', port: 9000,path:''});
+    var peer = new Peer(myname, {host: '/', port: 9000,path:''});
 
 
    
