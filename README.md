@@ -18,7 +18,7 @@ INstructions :
       
       then 
       
-      "peerjs --port 9000 --key peerjs"
+      "peerjs --port 9000 --key peerjs" //  for  Running the server
       
 4) then go to http://localhost/webrtc in your browser . and enjoy
 
